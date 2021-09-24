@@ -16,6 +16,24 @@
 		9532D4E926FE7A5500605D48 /* AppUsingTypicalNetworkingLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D4E826FE7A5500605D48 /* AppUsingTypicalNetworkingLayerTests.swift */; };
 		9532D4F326FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D4F226FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITests.swift */; };
 		9532D4F526FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D4F426FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITestsLaunchTests.swift */; };
+		9532D50926FE7AAB00605D48 /* TypicalNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9532D50826FE7AAB00605D48 /* TypicalNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9532D50C26FE7AAB00605D48 /* TypicalNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9532D50626FE7AAB00605D48 /* TypicalNetworking.framework */; };
+		9532D50D26FE7AAB00605D48 /* TypicalNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9532D50626FE7AAB00605D48 /* TypicalNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9532D51726FE7B5900605D48 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D51626FE7B5900605D48 /* APIRequest.swift */; };
+		9532D51926FE7C7600605D48 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D51826FE7C7600605D48 /* APIClient.swift */; };
+		9532D51B26FE7D8400605D48 /* UsersRequest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D51A26FE7D8400605D48 /* UsersRequest1.swift */; };
+		9532D51D26FE7DA800605D48 /* UsersRequest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D51C26FE7DA800605D48 /* UsersRequest2.swift */; };
+		9532D51F26FE7DAF00605D48 /* UsersRequest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D51E26FE7DAF00605D48 /* UsersRequest3.swift */; };
+		9532D52126FE7DB800605D48 /* UsersRequest4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D52026FE7DB800605D48 /* UsersRequest4.swift */; };
+		9532D52326FE7DBF00605D48 /* UsersRequest5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D52226FE7DBF00605D48 /* UsersRequest5.swift */; };
+		9532D52526FE7DC600605D48 /* UsersRequest6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D52426FE7DC600605D48 /* UsersRequest6.swift */; };
+		9532D52726FE7DCD00605D48 /* UsersRequest7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D52626FE7DCD00605D48 /* UsersRequest7.swift */; };
+		9532D52926FE7DD400605D48 /* UsersRequest8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D52826FE7DD400605D48 /* UsersRequest8.swift */; };
+		9532D52B26FE7DDC00605D48 /* UsersRequest9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D52A26FE7DDC00605D48 /* UsersRequest9.swift */; };
+		9532D52D26FE7DE300605D48 /* UsersRequest10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D52C26FE7DE300605D48 /* UsersRequest10.swift */; };
+		9532D52F26FE808000605D48 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D52E26FE808000605D48 /* APIService.swift */; };
+		9532D53326FE813D00605D48 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D53226FE813D00605D48 /* User.swift */; };
+		9532D53526FE818100605D48 /* UsersAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9532D53426FE818100605D48 /* UsersAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +51,28 @@
 			remoteGlobalIDString = 9532D4CD26FE7A5400605D48;
 			remoteInfo = AppUsingTypicalNetworkingLayer;
 		};
+		9532D50A26FE7AAB00605D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9532D4C626FE7A5400605D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9532D50526FE7AAB00605D48;
+			remoteInfo = TypicalNetworking;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9532D51126FE7AAB00605D48 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9532D50D26FE7AAB00605D48 /* TypicalNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9532D4CE26FE7A5400605D48 /* AppUsingTypicalNetworkingLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppUsingTypicalNetworkingLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +88,23 @@
 		9532D4EE26FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppUsingTypicalNetworkingLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9532D4F226FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsingTypicalNetworkingLayerUITests.swift; sourceTree = "<group>"; };
 		9532D4F426FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsingTypicalNetworkingLayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9532D50626FE7AAB00605D48 /* TypicalNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TypicalNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9532D50826FE7AAB00605D48 /* TypicalNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypicalNetworking.h; sourceTree = "<group>"; };
+		9532D51626FE7B5900605D48 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		9532D51826FE7C7600605D48 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9532D51A26FE7D8400605D48 /* UsersRequest1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest1.swift; sourceTree = "<group>"; };
+		9532D51C26FE7DA800605D48 /* UsersRequest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest2.swift; sourceTree = "<group>"; };
+		9532D51E26FE7DAF00605D48 /* UsersRequest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest3.swift; sourceTree = "<group>"; };
+		9532D52026FE7DB800605D48 /* UsersRequest4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest4.swift; sourceTree = "<group>"; };
+		9532D52226FE7DBF00605D48 /* UsersRequest5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest5.swift; sourceTree = "<group>"; };
+		9532D52426FE7DC600605D48 /* UsersRequest6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest6.swift; sourceTree = "<group>"; };
+		9532D52626FE7DCD00605D48 /* UsersRequest7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest7.swift; sourceTree = "<group>"; };
+		9532D52826FE7DD400605D48 /* UsersRequest8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest8.swift; sourceTree = "<group>"; };
+		9532D52A26FE7DDC00605D48 /* UsersRequest9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest9.swift; sourceTree = "<group>"; };
+		9532D52C26FE7DE300605D48 /* UsersRequest10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRequest10.swift; sourceTree = "<group>"; };
+		9532D52E26FE808000605D48 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9532D53226FE813D00605D48 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9532D53426FE818100605D48 /* UsersAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9532D50C26FE7AAB00605D48 /* TypicalNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +130,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9532D50326FE7AAB00605D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				9532D4D026FE7A5400605D48 /* AppUsingTypicalNetworkingLayer */,
+				9532D50726FE7AAB00605D48 /* TypicalNetworking */,
 				9532D4E726FE7A5500605D48 /* AppUsingTypicalNetworkingLayerTests */,
 				9532D4F126FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITests */,
 				9532D4CF26FE7A5400605D48 /* Products */,
@@ -92,6 +157,7 @@
 				9532D4CE26FE7A5400605D48 /* AppUsingTypicalNetworkingLayer.app */,
 				9532D4E426FE7A5500605D48 /* AppUsingTypicalNetworkingLayerTests.xctest */,
 				9532D4EE26FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITests.xctest */,
+				9532D50626FE7AAB00605D48 /* TypicalNetworking.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +168,8 @@
 				9532D4D126FE7A5400605D48 /* AppDelegate.swift */,
 				9532D4D326FE7A5400605D48 /* SceneDelegate.swift */,
 				9532D4D526FE7A5400605D48 /* ViewController.swift */,
+				9532D51226FE7ACE00605D48 /* Service */,
+				9532D51326FE7ADA00605D48 /* Requests */,
 				9532D4D726FE7A5400605D48 /* Main.storyboard */,
 				9532D4DA26FE7A5500605D48 /* Assets.xcassets */,
 				9532D4DC26FE7A5500605D48 /* LaunchScreen.storyboard */,
@@ -127,7 +195,87 @@
 			path = AppUsingTypicalNetworkingLayerUITests;
 			sourceTree = "<group>";
 		};
+		9532D50726FE7AAB00605D48 /* TypicalNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9532D50826FE7AAB00605D48 /* TypicalNetworking.h */,
+				9532D51426FE7B2B00605D48 /* APIRequest */,
+				9532D51526FE7B3900605D48 /* APIClient */,
+			);
+			path = TypicalNetworking;
+			sourceTree = "<group>";
+		};
+		9532D51226FE7ACE00605D48 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9532D53026FE808900605D48 /* Users */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9532D51326FE7ADA00605D48 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				9532D51A26FE7D8400605D48 /* UsersRequest1.swift */,
+				9532D51C26FE7DA800605D48 /* UsersRequest2.swift */,
+				9532D51E26FE7DAF00605D48 /* UsersRequest3.swift */,
+				9532D52026FE7DB800605D48 /* UsersRequest4.swift */,
+				9532D52226FE7DBF00605D48 /* UsersRequest5.swift */,
+				9532D52426FE7DC600605D48 /* UsersRequest6.swift */,
+				9532D52626FE7DCD00605D48 /* UsersRequest7.swift */,
+				9532D52826FE7DD400605D48 /* UsersRequest8.swift */,
+				9532D52A26FE7DDC00605D48 /* UsersRequest9.swift */,
+				9532D52C26FE7DE300605D48 /* UsersRequest10.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		9532D51426FE7B2B00605D48 /* APIRequest */ = {
+			isa = PBXGroup;
+			children = (
+				9532D51626FE7B5900605D48 /* APIRequest.swift */,
+			);
+			path = APIRequest;
+			sourceTree = "<group>";
+		};
+		9532D51526FE7B3900605D48 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				9532D51826FE7C7600605D48 /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		9532D53026FE808900605D48 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				9532D52E26FE808000605D48 /* APIService.swift */,
+				9532D53426FE818100605D48 /* UsersAPIService.swift */,
+				9532D53126FE811B00605D48 /* Response */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		9532D53126FE811B00605D48 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				9532D53226FE813D00605D48 /* User.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9532D50126FE7AAB00605D48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9532D50926FE7AAB00605D48 /* TypicalNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		9532D4CD26FE7A5400605D48 /* AppUsingTypicalNetworkingLayer */ = {
@@ -137,10 +285,12 @@
 				9532D4CA26FE7A5400605D48 /* Sources */,
 				9532D4CB26FE7A5400605D48 /* Frameworks */,
 				9532D4CC26FE7A5400605D48 /* Resources */,
+				9532D51126FE7AAB00605D48 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9532D50B26FE7AAB00605D48 /* PBXTargetDependency */,
 			);
 			name = AppUsingTypicalNetworkingLayer;
 			productName = AppUsingTypicalNetworkingLayer;
@@ -183,6 +333,24 @@
 			productReference = 9532D4EE26FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		9532D50526FE7AAB00605D48 /* TypicalNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9532D50E26FE7AAB00605D48 /* Build configuration list for PBXNativeTarget "TypicalNetworking" */;
+			buildPhases = (
+				9532D50126FE7AAB00605D48 /* Headers */,
+				9532D50226FE7AAB00605D48 /* Sources */,
+				9532D50326FE7AAB00605D48 /* Frameworks */,
+				9532D50426FE7AAB00605D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypicalNetworking;
+			productName = TypicalNetworking;
+			productReference = 9532D50626FE7AAB00605D48 /* TypicalNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +372,10 @@
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 9532D4CD26FE7A5400605D48;
 					};
+					9532D50526FE7AAB00605D48 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
 				};
 			};
 			buildConfigurationList = 9532D4C926FE7A5400605D48 /* Build configuration list for PBXProject "AppUsingTypicalNetworkingLayer" */;
@@ -222,6 +394,7 @@
 				9532D4CD26FE7A5400605D48 /* AppUsingTypicalNetworkingLayer */,
 				9532D4E326FE7A5500605D48 /* AppUsingTypicalNetworkingLayerTests */,
 				9532D4ED26FE7A5500605D48 /* AppUsingTypicalNetworkingLayerUITests */,
+				9532D50526FE7AAB00605D48 /* TypicalNetworking */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +424,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9532D50426FE7AAB00605D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,8 +438,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9532D52926FE7DD400605D48 /* UsersRequest8.swift in Sources */,
+				9532D52726FE7DCD00605D48 /* UsersRequest7.swift in Sources */,
+				9532D52126FE7DB800605D48 /* UsersRequest4.swift in Sources */,
 				9532D4D626FE7A5400605D48 /* ViewController.swift in Sources */,
+				9532D51D26FE7DA800605D48 /* UsersRequest2.swift in Sources */,
+				9532D52D26FE7DE300605D48 /* UsersRequest10.swift in Sources */,
+				9532D52F26FE808000605D48 /* APIService.swift in Sources */,
 				9532D4D226FE7A5400605D48 /* AppDelegate.swift in Sources */,
+				9532D53326FE813D00605D48 /* User.swift in Sources */,
+				9532D52B26FE7DDC00605D48 /* UsersRequest9.swift in Sources */,
+				9532D51B26FE7D8400605D48 /* UsersRequest1.swift in Sources */,
+				9532D51F26FE7DAF00605D48 /* UsersRequest3.swift in Sources */,
+				9532D52526FE7DC600605D48 /* UsersRequest6.swift in Sources */,
+				9532D53526FE818100605D48 /* UsersAPIService.swift in Sources */,
+				9532D52326FE7DBF00605D48 /* UsersRequest5.swift in Sources */,
 				9532D4D426FE7A5400605D48 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +474,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9532D50226FE7AAB00605D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9532D51726FE7B5900605D48 /* APIRequest.swift in Sources */,
+				9532D51926FE7C7600605D48 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +495,11 @@
 			isa = PBXTargetDependency;
 			target = 9532D4CD26FE7A5400605D48 /* AppUsingTypicalNetworkingLayer */;
 			targetProxy = 9532D4EF26FE7A5500605D48 /* PBXContainerItemProxy */;
+		};
+		9532D50B26FE7AAB00605D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9532D50526FE7AAB00605D48 /* TypicalNetworking */;
+			targetProxy = 9532D50A26FE7AAB00605D48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -435,6 +642,7 @@
 		9532D4F926FE7A5500605D48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +670,7 @@
 		9532D4FA26FE7A5500605D48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -578,6 +787,67 @@
 			};
 			name = Release;
 		};
+		9532D50F26FE7AAB00605D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahrukh.TypicalNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9532D51026FE7AAB00605D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shahrukh.TypicalNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -613,6 +883,15 @@
 			buildConfigurations = (
 				9532D4FF26FE7A5500605D48 /* Debug */,
 				9532D50026FE7A5500605D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9532D50E26FE7AAB00605D48 /* Build configuration list for PBXNativeTarget "TypicalNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9532D50F26FE7AAB00605D48 /* Debug */,
+				9532D51026FE7AAB00605D48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
